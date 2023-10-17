@@ -1,6 +1,16 @@
 <link rel="stylesheet" href="{{ asset('dist/libs/owl.carousel/dist/assets/owl.carousel.min.css')}}">
 <link  id="themeColors"  rel="stylesheet" href="{{ asset('dist/css/style.min.css')}}" />
 
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+</style>
+
 
  <!-- Project -->
  <div class="col-lg-4">
@@ -21,6 +31,8 @@
         <div id="customers"></div>
     </div>
 </div>
+    </div>
+ </div>
 
 <!--  Customizer -->
     <!--  Import Js Files -->
